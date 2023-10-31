@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z5bItrp0w27VIrca6pq27CN7axFLcqEIBZ3qC7mFrEvwocw0iF2GzgmH0+y3GXBdLxl8PQ4COjIs9h1Yk5gVBA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matheus.s.vaz\\PixAPI\\PixAPI\\PixAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matheus.s.vaz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
