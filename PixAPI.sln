@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{47D11BEC-A15
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixAPI", "PixAPI\PixAPI.csproj", "{C71485EF-E148-4F08-B494-713048C08DC0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{3DF30090-FA46-4F64-9F0F-5C37B67BF87E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{CCC2E703-2EAB-4D7C-AEE5-7329208A82E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{C71485EF-E148-4F08-B494-713048C08DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C71485EF-E148-4F08-B494-713048C08DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C71485EF-E148-4F08-B494-713048C08DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC2E703-2EAB-4D7C-AEE5-7329208A82E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC2E703-2EAB-4D7C-AEE5-7329208A82E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC2E703-2EAB-4D7C-AEE5-7329208A82E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC2E703-2EAB-4D7C-AEE5-7329208A82E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C71485EF-E148-4F08-B494-713048C08DC0} = {47D11BEC-A151-4291-8765-9B7E4E110803}
+		{CCC2E703-2EAB-4D7C-AEE5-7329208A82E4} = {3DF30090-FA46-4F64-9F0F-5C37B67BF87E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B6647DFD-C654-4184-BBFC-18BD0A26CEDA}
