@@ -1,7 +1,6 @@
 ﻿using Business.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Data.Entity;
-using System.Text;
 
 namespace DataAcess.Context
 {
@@ -17,6 +16,11 @@ namespace DataAcess.Context
         public DbSet<Receiver> Receivers { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(SqlContext).Assembly);
+            base.OnModelCreating(modelBuilder);
+        }
 
     }
 }
