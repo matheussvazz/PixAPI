@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{3D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{CCC2E703-2EAB-4D7C-AEE5-7329208A82E4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{45840664-F053-478B-BDEF-878FB0DD9E87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAcess", "DataAcess\DataAcess.csproj", "{D2602E66-01A0-4389-92EE-CAC79F196518}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{CCC2E703-2EAB-4D7C-AEE5-7329208A82E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCC2E703-2EAB-4D7C-AEE5-7329208A82E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCC2E703-2EAB-4D7C-AEE5-7329208A82E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2602E66-01A0-4389-92EE-CAC79F196518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2602E66-01A0-4389-92EE-CAC79F196518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2602E66-01A0-4389-92EE-CAC79F196518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2602E66-01A0-4389-92EE-CAC79F196518}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C71485EF-E148-4F08-B494-713048C08DC0} = {47D11BEC-A151-4291-8765-9B7E4E110803}
 		{CCC2E703-2EAB-4D7C-AEE5-7329208A82E4} = {3DF30090-FA46-4F64-9F0F-5C37B67BF87E}
+		{D2602E66-01A0-4389-92EE-CAC79F196518} = {45840664-F053-478B-BDEF-878FB0DD9E87}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B6647DFD-C654-4184-BBFC-18BD0A26CEDA}
