@@ -18,6 +18,9 @@ namespace PixAPI
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+
+            services.AddDbContxt<SqlContext>(options => 
+            options.UseSqlqServer(Configuration.GetConnectionString("DefaultConnection")));
         }
 
         public IConfiguration Configuration { get; }
